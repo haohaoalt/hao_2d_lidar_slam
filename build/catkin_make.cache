@@ -1,0 +1,2 @@
+hao01:hao02:hao_rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/hao007/hao_2d_lidar_slam/devel -DCMAKE_INSTALL_PREFIX=/home/hao007/hao_2d_lidar_slam/install -G Unix Makefiles

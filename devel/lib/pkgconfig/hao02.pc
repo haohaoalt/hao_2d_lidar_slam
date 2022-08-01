@@ -1,0 +1,8 @@
+prefix=/home/hao007/hao_2d_lidar_slam/devel
+
+Name: hao02
+Description: Description of hao02
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

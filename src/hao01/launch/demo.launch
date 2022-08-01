@@ -1,0 +1,8 @@
+<launch>
+
+    <arg name = "bag_filename" default = "/home/hao007/bags/hao_2d_lidar_bags/lesson1.bag" />
+    <param name = "use_sim_time" type = "bool" value = "true" />
+    <node name = "hao01_laser_scan_node" pkg = "hao01" type = "hao01_laser_scan_node" output = "screen" />
+    <node name = "playbag" pkg = "rosbag" type = "play" args = "--clock $(arg bag_filename)" />
+
+</launch>
