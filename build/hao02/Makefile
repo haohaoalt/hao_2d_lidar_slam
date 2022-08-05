@@ -80,8 +80,8 @@ list_install_components/fast: list_install_components
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -481,6 +481,21 @@ bond_generate_messages_nodejs: hao02/CMakeFiles/bond_generate_messages_nodejs.di
 bond_generate_messages_nodejs/fast:
 	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/bond_generate_messages_nodejs.dir/build.make hao02/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
+
+# Convenience name for target.
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/rule:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f CMakeFiles/Makefile2 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/rule
+.PHONY : hao02/CMakeFiles/hao02_scan_match_icp_node.dir/rule
+
+# Convenience name for target.
+hao02_scan_match_icp_node: hao02/CMakeFiles/hao02_scan_match_icp_node.dir/rule
+
+.PHONY : hao02_scan_match_icp_node
+
+# fast build rule for target.
+hao02_scan_match_icp_node/fast:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build
+.PHONY : hao02_scan_match_icp_node/fast
 
 # Convenience name for target.
 hao02/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
@@ -977,32 +992,59 @@ tf_generate_messages_lisp/fast:
 	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/tf_generate_messages_lisp.dir/build.make hao02/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
-src/scan_to_pointclod2_converter.o: src/scan_to_pointclod2_converter.cc.o
+src/scan_match_icp.o: src/scan_match_icp.cpp.o
+
+.PHONY : src/scan_match_icp.o
+
+# target to build an object file
+src/scan_match_icp.cpp.o:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/src/scan_match_icp.cpp.o
+.PHONY : src/scan_match_icp.cpp.o
+
+src/scan_match_icp.i: src/scan_match_icp.cpp.i
+
+.PHONY : src/scan_match_icp.i
+
+# target to preprocess a source file
+src/scan_match_icp.cpp.i:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/src/scan_match_icp.cpp.i
+.PHONY : src/scan_match_icp.cpp.i
+
+src/scan_match_icp.s: src/scan_match_icp.cpp.s
+
+.PHONY : src/scan_match_icp.s
+
+# target to generate assembly for a file
+src/scan_match_icp.cpp.s:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/src/scan_match_icp.cpp.s
+.PHONY : src/scan_match_icp.cpp.s
+
+src/scan_to_pointclod2_converter.o: src/scan_to_pointclod2_converter.cpp.o
 
 .PHONY : src/scan_to_pointclod2_converter.o
 
 # target to build an object file
-src/scan_to_pointclod2_converter.cc.o:
-	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cc.o
-.PHONY : src/scan_to_pointclod2_converter.cc.o
+src/scan_to_pointclod2_converter.cpp.o:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cpp.o
+.PHONY : src/scan_to_pointclod2_converter.cpp.o
 
-src/scan_to_pointclod2_converter.i: src/scan_to_pointclod2_converter.cc.i
+src/scan_to_pointclod2_converter.i: src/scan_to_pointclod2_converter.cpp.i
 
 .PHONY : src/scan_to_pointclod2_converter.i
 
 # target to preprocess a source file
-src/scan_to_pointclod2_converter.cc.i:
-	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cc.i
-.PHONY : src/scan_to_pointclod2_converter.cc.i
+src/scan_to_pointclod2_converter.cpp.i:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cpp.i
+.PHONY : src/scan_to_pointclod2_converter.cpp.i
 
-src/scan_to_pointclod2_converter.s: src/scan_to_pointclod2_converter.cc.s
+src/scan_to_pointclod2_converter.s: src/scan_to_pointclod2_converter.cpp.s
 
 .PHONY : src/scan_to_pointclod2_converter.s
 
 # target to generate assembly for a file
-src/scan_to_pointclod2_converter.cc.s:
-	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cc.s
-.PHONY : src/scan_to_pointclod2_converter.cc.s
+src/scan_to_pointclod2_converter.cpp.s:
+	cd /home/hao007/hao_2d_lidar_slam/build && $(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cpp.s
+.PHONY : src/scan_to_pointclod2_converter.cpp.s
 
 # Help Target
 help:
@@ -1037,6 +1079,7 @@ help:
 	@echo "... bond_generate_messages_eus"
 	@echo "... nodelet_generate_messages_py"
 	@echo "... bond_generate_messages_nodejs"
+	@echo "... hao02_scan_match_icp_node"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
 	@echo "... pcl_msgs_generate_messages_eus"
@@ -1071,6 +1114,9 @@ help:
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... tf_generate_messages_lisp"
+	@echo "... src/scan_match_icp.o"
+	@echo "... src/scan_match_icp.i"
+	@echo "... src/scan_match_icp.s"
 	@echo "... src/scan_to_pointclod2_converter.o"
 	@echo "... src/scan_to_pointclod2_converter.i"
 	@echo "... src/scan_to_pointclod2_converter.s"

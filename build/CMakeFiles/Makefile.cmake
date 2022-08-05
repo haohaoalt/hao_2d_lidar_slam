@@ -545,6 +545,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "hao02/CMakeFiles/bond_generate_messages_eus.dir/DependInfo.cmake"
   "hao02/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake"
   "hao02/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake"
+  "hao02/CMakeFiles/hao02_scan_match_icp_node.dir/DependInfo.cmake"
   "hao02/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake"
   "hao02/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake"
   "hao02/CMakeFiles/pcl_msgs_generate_messages_eus.dir/DependInfo.cmake"

@@ -18,7 +18,7 @@ pcl/point_cloud.h
 pcl/point_types.h
 -
 
-/home/hao007/hao_2d_lidar_slam/src/hao02/src/scan_to_pointclod2_converter.cc
+/home/hao007/hao_2d_lidar_slam/src/hao02/src/scan_to_pointclod2_converter.cpp
 hao02/scan_to_pointclod2_converter.h
 /home/hao007/hao_2d_lidar_slam/src/hao02/src/hao02/scan_to_pointclod2_converter.h
 limits

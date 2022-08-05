@@ -103,8 +103,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -948,6 +948,19 @@ bond_generate_messages_nodejs/fast:
 .PHONY : bond_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named hao02_scan_match_icp_node
+
+# Build rule for target.
+hao02_scan_match_icp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hao02_scan_match_icp_node
+.PHONY : hao02_scan_match_icp_node
+
+# fast build rule for target.
+hao02_scan_match_icp_node/fast:
+	$(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build
+.PHONY : hao02_scan_match_icp_node/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_eus
 
 # Build rule for target.
@@ -1449,6 +1462,7 @@ help:
 	@echo "... bond_generate_messages_eus"
 	@echo "... nodelet_generate_messages_py"
 	@echo "... bond_generate_messages_nodejs"
+	@echo "... hao02_scan_match_icp_node"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
 	@echo "... pcl_msgs_generate_messages_eus"

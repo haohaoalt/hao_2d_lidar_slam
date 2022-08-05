@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hao007/hao_2d_lidar_slam/src/hao02/src/scan_to_pointclod2_converter.cc" "/home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cc.o"
+  "/home/hao007/hao_2d_lidar_slam/src/hao02/src/scan_to_pointclod2_converter.cpp" "/home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/src/scan_to_pointclod2_converter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

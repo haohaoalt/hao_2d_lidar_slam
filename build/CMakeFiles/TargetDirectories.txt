@@ -106,6 +106,7 @@
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/bond_generate_messages_eus.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/nodelet_generate_messages_py.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/bond_generate_messages_nodejs.dir
+/home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/hao02_scan_match_icp_node.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/nodelet_generate_messages_eus.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/pcl_msgs_generate_messages_eus.dir

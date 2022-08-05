@@ -5,8 +5,8 @@
 #include <vector>
 #include <chrono>
 
-//#define max_scan_count 1500  雷达数据个数的最大值
-#define max_scan_count 3600
+#define max_scan_count 1500  //雷达数据个数的最大值
+// #define max_scan_count 3600
 
 struct smoothness_t
 {
@@ -47,12 +47,12 @@ LaserScan::LaserScan() : private_node_("~")
     ROS_INFO_STREAM("\033[1;32m----> Feature Extraction Started.\033[0m");
 
     // 将雷达的回调函数与订阅的topic进行绑定
-    laser_scan_subscriber_ = node_handle_.subscribe("scan", 1, &LaserScan::ScanCallback, this);
+    laser_scan_subscriber_ = node_handle_.subscribe("laser_scan", 1, &LaserScan::ScanCallback, this);
     // 将提取后的点发布到 feature_scan 这个topic
     feature_scan_publisher_ = node_handle_.advertise<sensor_msgs::LaserScan>("feature_scan", 1, this);
 
     // 将提取角点的阈值设置为1.0
-    edge_threshold_ = 0.5;
+    edge_threshold_ = 1.0;
 }
 
 LaserScan::~LaserScan()
@@ -166,7 +166,7 @@ void LaserScan::ScanCallback(const sensor_msgs::LaserScan::ConstPtr &scan_msg)
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "lesson1_feature_detection_node"); // 节点的名字
+    ros::init(argc, argv, "hao01_feature_detection_node"); // 节点的名字
     LaserScan laser_scan;
 
     ros::spin(); // 程序执行到此处时开始进行等待，每次订阅的消息到来都会执行一次ScanCallback()

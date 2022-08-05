@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(hao02)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+find_package(PCL REQUIRED QUIET)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -208,11 +208,20 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 add_executable(${PROJECT_NAME}_scan_to_pointclod2_converter_node 
-    src/scan_to_pointclod2_converter.cc)
+    src/scan_to_pointclod2_converter.cpp)
 
 add_dependencies(${PROJECT_NAME}_scan_to_pointclod2_converter_node 
     ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
     
 target_link_libraries(${PROJECT_NAME}_scan_to_pointclod2_converter_node
+  ${catkin_LIBRARIES}
+)
+add_executable(${PROJECT_NAME}_scan_match_icp_node 
+    src/scan_match_icp.cpp)
+
+add_dependencies(${PROJECT_NAME}_scan_match_icp_node 
+    ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+    
+target_link_libraries(${PROJECT_NAME}_scan_match_icp_node
   ${catkin_LIBRARIES}
 )
