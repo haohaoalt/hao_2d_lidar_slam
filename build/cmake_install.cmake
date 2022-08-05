@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/hao007/hao_2d_lidar_slam/build/hao_rplidar_ros/cmake_install.cmake")
   include("/home/hao007/hao_2d_lidar_slam/build/hao02/cmake_install.cmake")
   include("/home/hao007/hao_2d_lidar_slam/build/hao03/cmake_install.cmake")
+  include("/home/hao007/hao_2d_lidar_slam/build/hao04/cmake_install.cmake")
 
 endif()
 

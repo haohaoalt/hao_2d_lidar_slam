@@ -1,0 +1,8 @@
+prefix=/home/hao007/hao_2d_lidar_slam/install
+
+Name: hao04
+Description: Description of hao04
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp sensor_msgs tf tf_conversions laser_geometry

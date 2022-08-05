@@ -1,0 +1,14 @@
+
+
+<launch>
+
+    <!-- 启动节点 -->
+    <node name="hao04_occupancy_grid_node"
+        pkg="hao04" type="hao04_occupancy_grid_node" output="screen" />
+    
+    <!-- launch rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" required="true"
+        args="-d $(find hao04)/config/occupancy_grid.rviz" />
+
+
+</launch>

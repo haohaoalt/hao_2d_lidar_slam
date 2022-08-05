@@ -1,0 +1,23 @@
+
+
+<launch>
+
+    <!-- bag的地址与名称 -->
+    <arg name="bag_filename" default="/media/hao007/something/hao_2d_lidar_slam/lesson1.bag"/>
+
+    <!-- 使用bag的时间戳 -->
+    <param name="use_sim_time" value="true" />
+
+    <!-- 启动节点 -->
+    <node name="hao04_hector_mapping_node"
+        pkg="hao04" type="hao04_hector_mapping_node" output="screen" />
+    
+    <!-- launch rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" required="true"
+        args="-d $(find hao04)/config/hector_mapping.rviz" />
+
+    <!-- play bagfile -->
+    <node name="playbag" pkg="rosbag" type="play"
+        args="--clock $(arg bag_filename)" />
+
+</launch>
