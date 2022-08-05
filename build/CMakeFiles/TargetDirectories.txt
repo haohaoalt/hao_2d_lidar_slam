@@ -141,3 +141,12 @@
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/dynamic_reconfigure_gencfg.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/topic_tools_generate_messages_py.dir
 /home/hao007/hao_2d_lidar_slam/build/hao02/CMakeFiles/tf_generate_messages_lisp.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/install/strip.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/install.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/hao03_plicp_odometry_node.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/hao03_scan_match_plicp_node.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/rebuild_cache.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/install/local.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/test.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/list_install_components.dir
+/home/hao007/hao_2d_lidar_slam/build/hao03/CMakeFiles/edit_cache.dir

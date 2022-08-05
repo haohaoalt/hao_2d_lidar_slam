@@ -1389,6 +1389,32 @@ tf_generate_messages_lisp/fast:
 	$(MAKE) -f hao02/CMakeFiles/tf_generate_messages_lisp.dir/build.make hao02/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
+#=============================================================================
+# Target rules for targets named hao03_plicp_odometry_node
+
+# Build rule for target.
+hao03_plicp_odometry_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hao03_plicp_odometry_node
+.PHONY : hao03_plicp_odometry_node
+
+# fast build rule for target.
+hao03_plicp_odometry_node/fast:
+	$(MAKE) -f hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build.make hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build
+.PHONY : hao03_plicp_odometry_node/fast
+
+#=============================================================================
+# Target rules for targets named hao03_scan_match_plicp_node
+
+# Build rule for target.
+hao03_scan_match_plicp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hao03_scan_match_plicp_node
+.PHONY : hao03_scan_match_plicp_node
+
+# fast build rule for target.
+hao03_scan_match_plicp_node/fast:
+	$(MAKE) -f hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build.make hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build
+.PHONY : hao03_scan_match_plicp_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1496,6 +1522,8 @@ help:
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... tf_generate_messages_lisp"
+	@echo "... hao03_plicp_odometry_node"
+	@echo "... hao03_scan_match_plicp_node"
 .PHONY : help
 
 

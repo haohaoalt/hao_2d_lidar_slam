@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/hao007/hao_2d_lidar_slam/build/hao01/cmake_install.cmake")
   include("/home/hao007/hao_2d_lidar_slam/build/hao_rplidar_ros/cmake_install.cmake")
   include("/home/hao007/hao_2d_lidar_slam/build/hao02/cmake_install.cmake")
+  include("/home/hao007/hao_2d_lidar_slam/build/hao03/cmake_install.cmake")
 
 endif()
 

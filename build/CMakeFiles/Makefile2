@@ -618,7 +618,7 @@ clean: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 hao01/CMakeFiles/hello_slam.dir/all:
 	$(MAKE) -f hao01/CMakeFiles/hello_slam.dir/build.make hao01/CMakeFiles/hello_slam.dir/depend
 	$(MAKE) -f hao01/CMakeFiles/hello_slam.dir/build.make hao01/CMakeFiles/hello_slam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=20,21 "Built target hello_slam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=24,25 "Built target hello_slam"
 .PHONY : hao01/CMakeFiles/hello_slam.dir/all
 
 # Include target in all.
@@ -1437,7 +1437,7 @@ hao_rplidar_ros/preinstall:
 hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/all:
 	$(MAKE) -f hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend
 	$(MAKE) -f hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=29,30 "Built target rplidarNodeClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=33,34 "Built target rplidarNodeClient"
 .PHONY : hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/all
 
 # Include target in all.
@@ -1474,7 +1474,7 @@ clean: hao_rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean
 hao_rplidar_ros/CMakeFiles/rplidarNode.dir/all:
 	$(MAKE) -f hao_rplidar_ros/CMakeFiles/rplidarNode.dir/build.make hao_rplidar_ros/CMakeFiles/rplidarNode.dir/depend
 	$(MAKE) -f hao_rplidar_ros/CMakeFiles/rplidarNode.dir/build.make hao_rplidar_ros/CMakeFiles/rplidarNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target rplidarNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=26,27,28,29,30,31,32 "Built target rplidarNode"
 .PHONY : hao_rplidar_ros/CMakeFiles/rplidarNode.dir/all
 
 # Include target in all.
@@ -2253,6 +2253,33 @@ clean: hao02/CMakeFiles/bond_generate_messages_nodejs.dir/clean
 # Target rules for target hao02/CMakeFiles/hao02_scan_match_icp_node.dir
 
 # All Build rule for target.
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
@@ -2304,33 +2331,6 @@ hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/std_srvs_ge
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/topic_tools_generate_messages_py.dir/all
 hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_match_icp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/depend
 	$(MAKE) -f hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build.make hao02/CMakeFiles/hao02_scan_match_icp_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=16,17 "Built target hao02_scan_match_icp_node"
@@ -3071,6 +3071,33 @@ clean: hao02/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 # Target rules for target hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir
 
 # All Build rule for target.
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
@@ -3122,33 +3149,6 @@ hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFil
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/topic_tools_generate_messages_py.dir/all
 hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/depend
 	$(MAKE) -f hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build.make hao02/CMakeFiles/hao02_scan_to_pointclod2_converter_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=18,19 "Built target hao02_scan_to_pointclod2_converter_node"
@@ -3498,6 +3498,178 @@ hao02/CMakeFiles/tf_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: hao02/CMakeFiles/tf_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory hao03
+
+# Convenience name for "all" pass in the directory.
+hao03/all: hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all
+hao03/all: hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all
+
+.PHONY : hao03/all
+
+# Convenience name for "clean" pass in the directory.
+hao03/clean: hao03/CMakeFiles/hao03_plicp_odometry_node.dir/clean
+hao03/clean: hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/clean
+
+.PHONY : hao03/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hao03/preinstall:
+
+.PHONY : hao03/preinstall
+
+#=============================================================================
+# Target rules for target hao03/CMakeFiles/hao03_plicp_odometry_node.dir
+
+# All Build rule for target.
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+	$(MAKE) -f hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build.make hao03/CMakeFiles/hao03_plicp_odometry_node.dir/depend
+	$(MAKE) -f hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build.make hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=20,21 "Built target hao03_plicp_odometry_node"
+.PHONY : hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all
+
+# Include target in all.
+all: hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao007/hao_2d_lidar_slam/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 hao03/CMakeFiles/hao03_plicp_odometry_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao007/hao_2d_lidar_slam/build/CMakeFiles 0
+.PHONY : hao03/CMakeFiles/hao03_plicp_odometry_node.dir/rule
+
+# Convenience name for target.
+hao03_plicp_odometry_node: hao03/CMakeFiles/hao03_plicp_odometry_node.dir/rule
+
+.PHONY : hao03_plicp_odometry_node
+
+# clean rule for target.
+hao03/CMakeFiles/hao03_plicp_odometry_node.dir/clean:
+	$(MAKE) -f hao03/CMakeFiles/hao03_plicp_odometry_node.dir/build.make hao03/CMakeFiles/hao03_plicp_odometry_node.dir/clean
+.PHONY : hao03/CMakeFiles/hao03_plicp_odometry_node.dir/clean
+
+# clean rule for target.
+clean: hao03/CMakeFiles/hao03_plicp_odometry_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target hao03/CMakeFiles/hao03_scan_match_plicp_node.dir
+
+# All Build rule for target.
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao01/CMakeFiles/std_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_py.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all: hao02/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+	$(MAKE) -f hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build.make hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/depend
+	$(MAKE) -f hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build.make hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hao007/hao_2d_lidar_slam/build/CMakeFiles --progress-num=22,23 "Built target hao03_scan_match_plicp_node"
+.PHONY : hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all
+
+# Include target in all.
+all: hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao007/hao_2d_lidar_slam/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao007/hao_2d_lidar_slam/build/CMakeFiles 0
+.PHONY : hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/rule
+
+# Convenience name for target.
+hao03_scan_match_plicp_node: hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/rule
+
+.PHONY : hao03_scan_match_plicp_node
+
+# clean rule for target.
+hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/clean:
+	$(MAKE) -f hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/build.make hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/clean
+.PHONY : hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/clean
+
+# clean rule for target.
+clean: hao03/CMakeFiles/hao03_scan_match_plicp_node.dir/clean
 
 .PHONY : clean
 

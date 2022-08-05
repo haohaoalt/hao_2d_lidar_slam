@@ -13,6 +13,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"hao02\""
+  "qh_QHpointer"
   "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
   "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
   "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
@@ -47,7 +48,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.8"
   "/usr/include/ni"
   "/usr/include/openni2"
-  "/usr/local/include/eigen3"
+  "/usr/local/include/pcl-1.9"
   )
 
 # Targets to which this target links.
