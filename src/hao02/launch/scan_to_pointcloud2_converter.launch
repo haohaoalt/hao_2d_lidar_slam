@@ -11,7 +11,7 @@
         pkg="hao02" type="hao02_scan_to_pointclod2_converter_node" output="screen" />
     
     <!-- launch rviz -->
-    <node name="rviz" pkg="rviz" type="rviz" required="false"
+    <node name="rviz" pkg="rviz" type="rviz" required="true"
         args="-d $(find hao02)/launch/scan_to_pointcloud2.rviz" />
 
     <!-- play bagfile -->

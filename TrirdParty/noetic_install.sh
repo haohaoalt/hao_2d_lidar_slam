@@ -10,7 +10,6 @@ sudo apt-get install ros-noetic-laser-geometry
 sudo apt-get install ros-noetic-libg2o
 
 # install ceres-solver-1.13.0
-cd TrirdParty/
 unzip ceres-solver-1.13.0.zip
 cd ceres-solver
 mkdir build
