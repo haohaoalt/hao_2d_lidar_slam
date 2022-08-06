@@ -13,7 +13,7 @@
     <node name="hao06_karto_slam_node" pkg="hao06" type="hao06_karto_slam_node" output="screen" >
         <rosparam command="load" file="$(find hao06)/config/mapper_params_outdoor.yaml" />
         <remap from="scan" to="front_scan" />
-        <param name="solver_type" value="$(arg solver_type)" />
+        <param name="solver_type_" value="$(arg solver_type)" />
     </node>
 
     <!-- launch rviz -->
