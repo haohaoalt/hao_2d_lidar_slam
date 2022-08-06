@@ -7,6 +7,8 @@
 subdirs("gtest")
 subdirs("hao01")
 subdirs("hao_rplidar_ros")
+subdirs("hao05")
+subdirs("hao06")
 subdirs("hao02")
 subdirs("hao03")
 subdirs("hao04")
