@@ -1,8 +1,0 @@
-prefix=/home/hao007/hao_2d_lidar_slam/devel
-
-Name: hao03
-Description: Description of hao03
-Version: 0.0.0
-Cflags: -I/home/hao007/hao_2d_lidar_slam/src/hao03/include
-Libs: -L${prefix}/lib -lhao03
-Requires: roscpp sensor_msgs geometry_msgs tf2 tf2_geometry_msgs tf2_ros

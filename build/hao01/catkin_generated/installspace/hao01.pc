@@ -1,8 +1,0 @@
-prefix=/home/hao007/hao_2d_lidar_slam/install
-
-Name: hao01
-Description: Description of hao01
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
