@@ -8,6 +8,9 @@ add_subdirectory(lib/sparse_bundle_adjustment)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+
+
+## this is for Ceres? no! it is for finding g2o and suitesparse
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/CMakeModules)
 set( ROS_CXX_DEPENDENCIES
 geometry_msgs

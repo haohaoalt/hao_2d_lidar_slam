@@ -1,3 +1,5 @@
 /devel/*
 /build/*
 .catkin_workspace
+/TrirdParty/ceres-solver/*
+/TrirdParty/gtsam-4.0.2/*
